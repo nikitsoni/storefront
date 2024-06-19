@@ -1,0 +1,32 @@
+# Bytecode files
+*.pyc
+
+# Compiled static assets
+__pycache__/
+
+# Database files
+db.sqlite3
+
+# Local development configuration
+.env
+
+# Logs
+*.log
+
+# Migrations (optional)
+# You might choose to track migrations, uncomment 
+# this line if you prefer to:
+# migrations/
+
+# Local IDE or editor files
+*.idea/
+.vscode/
+*.sublime*
+
+# Coverage reports
+.coverage
+
+# OS specific temporary files
+# These may vary depending on your OS.
+Thumbs.db
+DS_Store
