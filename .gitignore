@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific files
+*.log
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# Environment variables
+.env
+*.env
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Migrations (optional, if you want to exclude them)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Cache files
+*.cache
+*.mo
+*.pid
+*.swp
+*.swo
+
+# Celery
+celerybeat-schedule
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# MyPy type checker
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Terraform
+.terraform/
+
+# AWS Lambda
+.aws-sam/
+
+# System files
+.DS_Store
+Thumbs.db
