@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class LikesConfig(AppConfig):
+class StoreCustomConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'likes'
+    name = 'store_custom'
